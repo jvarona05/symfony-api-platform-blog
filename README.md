@@ -66,7 +66,7 @@ docker exec -ti laradock_workspace_1 php bin/console doctrine:migrations:migrate
 
 docker exec -ti laradock_workspace_1 php bin/console doctrine:fixtures:load
 
-php bin/console --env=test doctrine:database:create
+docker exec -ti laradock_workspace_1 php bin/console --env=test doctrine:database:create
 
 docker exec -ti laradock_workspace_1 php bin/phpunit
 
