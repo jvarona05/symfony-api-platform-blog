@@ -28,11 +28,12 @@ git clone https://github.com/jvarona05/symfony-api-platform-blog.git
 cd symfony-api-platform-blog
 ```
 
-### Create .env file
+### Configuration files
 
 ```
 cp .env.dist .env
 cp .env.test.dist .env.test
+cp behat.yml.dist behat.yml
 ```
 
 ### Run Docker
@@ -44,12 +45,12 @@ cd laradock
 
 cp env-example .env
 
-docker-compose up -d nginx mysql workspace phpmyadmin
+docker-compose up -d nginx mysql workspace
 
 cd ..
 ```
 
-Note: The containers use the ports 80, 8080 and 3306. Please,
+Note: The containers use the ports 80 and 3306. Please,
 don't have any programs running on these ports in your machine.
 
 ### Configure the project
@@ -64,6 +65,8 @@ docker exec -ti laradock_workspace_1 composer install
 docker exec -ti laradock_workspace_1 php bin/console doctrine:migrations:migrate
 
 docker exec -ti laradock_workspace_1 php bin/console doctrine:fixtures:load
+
+php bin/console --env=test doctrine:database:create
 
 docker exec -ti laradock_workspace_1 php bin/phpunit
 
