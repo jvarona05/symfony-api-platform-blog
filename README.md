@@ -2,7 +2,7 @@
 
 # Blog Restful API - Symfony4
 
-Robust APIs in Symfony 4 using API Platform
+Robust API in Symfony 4 using API Platform
 
 ## Main Technologies
 
