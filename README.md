@@ -4,8 +4,6 @@
 
 Robust APIs in Symfony 4 using API Platform
 
-[API Documentation](https://jvarona05.github.io/customer-alliance-test/public/api.html).
-
 ## Main Technologies
 
 - Symfony 4
