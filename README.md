@@ -61,7 +61,7 @@ openssl genrsa -out config/jwt/private.pem -aes256 -passout pass:1234 4096
 openssl rsa -pubout -in config/jwt/private.pem -passin pass:1234 -out config/jwt/public.pem 
 ```
 
-### Configure the project
+### Configure Symfony project
 
 ```
 
@@ -75,7 +75,7 @@ docker exec -ti laradock_workspace_1 php bin/console --env=test doctrine:databas
 
 ```
 
-### Tests
+### Run Tests
 
 ```
 docker exec -ti laradock_workspace_1 php bin/phpunit
