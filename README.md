@@ -32,7 +32,7 @@ cd symfony-api-platform-blog
 
 ```
 cp .env.dist .env
-cp .env.test.dist .env
+cp .env.test.dist .env.test
 ```
 
 ### Run Docker
