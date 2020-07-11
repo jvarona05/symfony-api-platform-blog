@@ -53,12 +53,17 @@ cd ..
 Note: The containers use the ports 80 and 3306. Please,
 don't have any programs running on these ports in your machine.
 
-### Configure the project
+### Configure JWT keys
 
 ```
 openssl genrsa -out config/jwt/private.pem -aes256 -passout pass:1234 4096
 
 openssl rsa -pubout -in config/jwt/private.pem -passin pass:1234 -out config/jwt/public.pem 
+```
+
+### Configure the project
+
+```
 
 docker exec -ti laradock_workspace_1 composer install
 
@@ -68,6 +73,11 @@ docker exec -ti laradock_workspace_1 php bin/console doctrine:fixtures:load
 
 docker exec -ti laradock_workspace_1 php bin/console --env=test doctrine:database:create
 
+```
+
+### Tests
+
+```
 docker exec -ti laradock_workspace_1 php bin/phpunit
 
 docker exec -ti laradock_workspace_1 php vendor/bin/behat
