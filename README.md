@@ -78,3 +78,4 @@ docker exec -ti laradock_workspace_1 php vendor/bin/behat
 ```
 http://localhost/api/docs
 ```
+<p align="center"><img src="https://i.imgur.com/YJ0PiZWg.png" ></p>
