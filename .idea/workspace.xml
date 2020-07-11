@@ -203,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594024860375</updated>
       <workItem from="1594024862272" duration="14804000" />
-      <workItem from="1594060704085" duration="68985000" />
+      <workItem from="1594060704085" duration="69259000" />
     </task>
     <servers />
   </component>
@@ -227,6 +227,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="452" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594445384967">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="452" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1594445384967" />
     <state x="508" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1594371843334">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

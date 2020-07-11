@@ -45,6 +45,8 @@ cd laradock
 cp env-example .env
 
 docker-compose up -d nginx mysql workspace phpmyadmin
+
+cd ..
 ```
 
 Note: The containers use the ports 80, 8080 and 3306. Please,
