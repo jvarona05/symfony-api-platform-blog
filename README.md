@@ -15,7 +15,7 @@ Robust APIs in Symfony 4 using API Platform
 - Authorization with symfony isGranted
 - EventSubscriber
 - SwiftMailer
-- UnitTest -PHPUnit
+- Unit Test -PHPUnit
 - Feature Test - Behat
 
 ## Installation
