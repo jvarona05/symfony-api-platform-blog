@@ -53,6 +53,10 @@ don't have any programs running on these ports in your machine.
 ### Configure the project
 
 ```
+openssl genrsa -out config/jwt/private.pem -aes256 -passout pass:1234 4096
+
+openssl rsa -pubout -in config/jwt/private.pem -passin pass:1234 -out config/jwt/public.pem 
+
 docker exec -ti laradock_workspace_1 composer install
 
 docker exec -ti laradock_workspace_1 php bin/console doctrine:migrations:migrate
@@ -64,8 +68,8 @@ docker exec -ti laradock_workspace_1 php bin/phpunit
 docker exec -ti laradock_workspace_1 php vendor/bin/behat
 ```
 
-### Open the project
+### Open the documentation
 
 ```
-http://localhost/
+http://localhost/api/docs
 ```

@@ -22,15 +22,6 @@
     <list default="true" id="e0995114-98d5-4656-a06a-6cff0d070b77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/assets/init-swagger-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/assets/logo-header.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/assets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/assets/swagger-ui/swagger-ui-bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/assets/swagger-ui/swagger-ui-standalone-preset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/assets/swagger-ui/swagger-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/assets/web.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/assets/webby.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594024860375</updated>
       <workItem from="1594024862272" duration="14804000" />
-      <workItem from="1594060704085" duration="68179000" />
+      <workItem from="1594060704085" duration="68737000" />
     </task>
     <servers />
   </component>
